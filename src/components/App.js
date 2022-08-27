@@ -63,7 +63,7 @@ class App extends Component {
                                                {
                                                  
                                                         return(
-                                                            <div key={index} className={""}>
+                                                            <div key={index} className={"pink-green"}>
 					   				<div className="name">
 					   					{item.name} 
 					   				</div>
