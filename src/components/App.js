@@ -61,9 +61,16 @@ class App extends Component {
 				   		}
 	                                        if(item.percent>=90)
                                                {
-                                                  const isBackgroundGreen = true;
+                                                 
                                                         return(
-                                                           <div className = {isBackgroundGreen ? 'pink-green' : 'bg-pink'}></div>
+                                                            <div key={index} className={"bg-pink"}>
+					   				<div className="name">
+					   					{item.name} 
+					   				</div>
+					   				<div className="percent">
+					   					{item.percent}
+					   				</div>
+				   				</div>
                                                         )
                                                }
 			       })
