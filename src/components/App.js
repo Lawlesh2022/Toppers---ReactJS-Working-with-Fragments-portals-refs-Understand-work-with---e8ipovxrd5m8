@@ -49,7 +49,7 @@ class App extends Component {
 				   			return(
 				   				//Conditional statement in the className of below div to give callName="bg-pink"
 				   				//if the percent >= 90 else className = "" 
-				   				<div key={index} className={""}>
+				   				<div key={index} className={"bg-pink"}>
 					   				<div className="name">
 										{item.name}
 					   				</div>
@@ -63,7 +63,7 @@ class App extends Component {
                                                {
                                                  
                                                         return(
-                                                            <div key={index} className={"bg-pink"}>
+                                                            <div key={index} className={""}>
 					   				<div className="name">
 					   					{item.name} 
 					   				</div>
