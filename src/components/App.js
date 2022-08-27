@@ -59,6 +59,12 @@ class App extends Component {
 				   				</div>
 				   				);
 				   		}
+	                                        if(item.percent>=90)
+                                               {
+                                                  return(
+                                                        <div className = "bg-pink"></div>
+                                                  )
+                                               }
 			       })
 			    }
     		</div>
