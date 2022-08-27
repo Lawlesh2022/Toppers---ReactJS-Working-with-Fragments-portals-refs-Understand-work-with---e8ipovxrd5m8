@@ -51,10 +51,10 @@ class App extends Component {
 				   				//if the percent >= 90 else className = "" 
 				   				<div key={index} className={}>
 					   				<div className="name">
-					   					 //Write code to display name
+										{item.name}
 					   				</div>
 					   				<div className="percent">
-					   					 //Write code to display percentage upto 2 decimal places
+										{item.percent}
 					   				</div>
 				   				</div>
 				   				);
